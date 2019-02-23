@@ -1,0 +1,12 @@
+** File format converter for 3D Rendering engine. 
+It converts certain aspects of /very/ simple .obj files to a very simple binary format (.mybin), which I wrote to load in the meshes more quickly. 
+
+As of now, on windows, I need to place some extra dlls into the same directory as the compiled binary to do the conversion. 
+
+-rw-rw-r-- 1 chris  74K Jun  9  2014 fileformatconverter.exe
+-rw-rw-r-- 1 chris  25M Apr 21  2014 libassimp.dll
+-rw-rw-r-- 1 chris 218K Aug 10  2013 libjpeg-9.dll
+-rw-rw-r-- 1 chris 196K Apr 27  2014 libpng16-16.dll
+-rw-rw-r-- 1 chris 984K Mär 15  2014 SDL2.dll
+-rw-rw-r-- 1 chris 105K Aug 10  2013 SDL2_image.dll
+-rw-rw-r-- 1 chris 180K Aug 10  2013 SDL2_mixer.dll
